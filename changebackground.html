@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> background color change</title>
+	</head>
+	<body>
+		<h1>Click the button to change the backgroung</h1>
+		<p>This is a simple example of changing the background color using HTML and Javascript.</p>
+		<button onclick = "changecolor()">CHANGE COLOR</button>
+		<script>
+			function changeColor(){
+				const colors = ["#FF5733","#33FF57","#3357FF","#F1C40F","#9B59B6"];
+				const randomcolor=colors[math.floor(math.random() * color.lenght)];
+				document.body.style.backgroundColor = randomcolor;
+			}
+		</script>
+	</body>
+</html>
+
